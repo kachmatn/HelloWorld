@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>UserDefinedName</key>
+            <string>ProtonVPN NL-FREE#103</string>
+            <key>PayloadDisplayName</key>
+            <string>ProtonVPN NL-FREE#103</string>
+            <key>PayloadIdentifier</key>
+            <string>com.protonvpn.config</string>
+            <key>PayloadType</key>
+            <string>com.apple.vpn.managed</string>
+            <key>PayloadUUID</key>
+            <string>3C3D6F6E-6F6E-3D6F-6E6F-6E3D6F6E6F6E</string>
+            <key>VPNType</key>
+            <string>VPN</string>
+            <key>VPNSubType</key>
+            <string>net.openvpn.OpenVPN</string>
+            <key>VendorConfig</key>
+            <dict>
+                <key>ovpn</key>
+                <dict>
+                    <key>remotes</key>
+                    <array>
+                        <string>212.8.253.155 4569</string>
+                        <string>212.8.253.155 51820</string>
+                        <string>212.8.253.155 5060</string>
+                        <string>212.8.253.155 1194</string>
+                        <string>212.8.253.155 80</string>
+                    </array>
+                    <key>remote-random</key>
+                    <true/>
+                    <key>auth-user-pass</key>
+                    <string></string>
+                    <key>dev</key>
+                    <string>tun</string>
+                    <key>proto</key>
+                    <string>udp</string>
+                    <key>cipher</key>
+                    <string>AES-256-GCM</string>
+                    <key>resolv-retry</key>
+                    <string>infinite</string>
+                    <key>nobind</key>
+                    <true/>
+                    <key>persist-key</key>
+                    <true/>
+                    <key>persist-tun</key>
+                    <true/>
+                    <key>reneg-sec</key>
+                    <integer>0</integer>
+                    <key>remote-cert-tls</key>
+                    <string>server</string>
+                    <key>tun-mtu</key>
+                    <integer>1500</integer>
+                    <key>mssfix</key>
+                    <integer>0</integer>
+                    <key>setenv</key>
+                    <string>CLIENT_CERT 0</string>
+                </dict>
+            </dict>
+            <key>ProviderBundleIdentifier</key>
+            <string>net.openvpn.connect.app</string>
+            <key>PPP</key>
+            <dict>
+                <key>AuthName</key>
+                <string>rTANbR3C7pjfA3fL+b:0</string>
+            </dict>
+            <key>PayloadCertificateAnchorUUID</key>
+            <string>ANCHOR-UUID</string>
+        </dict>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.security.root</string>
+            <key>PayloadUUID</key>
+            <string>ANCHOR-UUID</string>
+            <key>PayloadIdentifier</key>
+            <string>com.protonvpn.anchor</string>
+            <key>PayloadDisplayName</key>
+            <string>ProtonVPN Root CA</string>
+            <key>PayloadContent</key>
+            <data>
+            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
+            EA==
+            </data>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>ProtonVPN Configuration</string>
+    <key>PayloadIdentifier</key>
+    <string>com.protonvpn.profile</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>3C3D6F6E-6F6E-3D6F-6E6F-6E3D6F6E6F6F</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
